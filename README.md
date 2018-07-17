@@ -1,2 +1,2 @@
 # SpringBootSwaggerDataJpaHibernateInMemory
-Api with spring boot and documentation of api and usage with swagger, unit testing using mockito and simulation of hospital api
+Api development with spring boot and documentation of api, usage of api demonstration with swagger, unit testing using mockito and business case is simulation of hospital api.
