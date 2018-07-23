@@ -1,4 +1,4 @@
-package com.employeeApp.config;
+package com.hospitalApp.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,9 +7,9 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@ComponentScan("com.employeeApp")
-@EntityScan("com.employeeApp")
-@EnableJpaRepositories("com.employeeApp.repository") 
+@ComponentScan("com.hospitalApp")
+@EntityScan("com.hospitalApp")
+@EnableJpaRepositories("com.hospitalApp.repository") 
 public class BootstrapApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BootstrapApplication.class, args);
